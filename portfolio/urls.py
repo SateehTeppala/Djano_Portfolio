@@ -23,6 +23,8 @@ urlpatterns = [
     path('',include('resume.urls')),
     path('emp/',include('emp.urls')),
     path('blog/',include('blog.urls')),
-    path('projects/',projects,name='projects')
+    path('projects/',projects,name='projects'),
+    path('todo/',include('todo.urls')),
+    path('dairy/',include('dairy.urls'))
 
 ]
